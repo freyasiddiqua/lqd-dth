@@ -17,6 +17,8 @@ If I think of more, I'll add them here...
 ## Part One (Baselines)
 
 I first had to upgrade to Windows 11 Pro (go figure, thanks, Microsoft) and enable Hyper-V
+I installed MultiPass separately.
+I installed KubeCTL separately.
 I then created an external virtual network switch through Windows Hyper-V Manager
 
 - Initialize VM and start dashboard proxy
