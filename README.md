@@ -54,8 +54,9 @@ kubectl get nodes
 - Add new IP address to Certificate Signing Request (CSR) template for proxy access
 ```
 sudo nano /var/snap/microk8s/current/certs/csr.conf.template
-(under alt names) IP.100 = <YOUR_VM_IP>
 ```
+(under alt names) ``` IP.100 = <YOUR_VM_IP> ```
+
 - Clear any locks (if any) and refresh both API Server & CA certificates
 ```
 sudo rm -f /var/snap/microk8s/current/var/lock/no-cert-reissue
